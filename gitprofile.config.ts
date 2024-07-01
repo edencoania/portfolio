@@ -9,7 +9,7 @@ const CONFIG = {
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/gitprofile/',
+  base: '/portfolio/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
@@ -80,7 +80,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/19K394b2jg-VIP0uVXf1s6aPSC6OjbpFZ/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      'https://www.dropbox.com/scl/fi/2p3v0f4dlj2oc2alkewys/Eden-Resume.pdf?rlkey=0eusf3ubs8b7osf75s0s2byo5&st=1vqizfee&dl=0', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'JavaScript',
@@ -99,6 +99,9 @@ const CONFIG = {
     'Bash',
     'Terraform',
     'Ansible',
+    'Github-Actions',
+    'Gitlab-CI',
+    ''
   ],
   experiences: [
     {
@@ -119,7 +122,6 @@ const CONFIG = {
       name: 'AWS Certified Cloud Practitioner',
       year: '2024-02-01',
       link: 'https://www.credly.com',
-  
     },
   ],
   educations: [
