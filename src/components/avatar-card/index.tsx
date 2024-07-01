@@ -82,6 +82,7 @@ const AvatarCard: React.FC<AvatarCardProps> = ({
               {skeleton({ widthCls: 'w-40', heightCls: 'h-8' })}
             </div>
           ) : (
+            <div>
             <a
               href={resumeFileUrl}
               target="_blank"
@@ -91,6 +92,8 @@ const AvatarCard: React.FC<AvatarCardProps> = ({
             >
               Download Resume
             </a>
+          </div>
+
           ))}
       </div>
     </div>

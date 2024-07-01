@@ -80,7 +80,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.dropbox.com/scl/fi/2p3v0f4dlj2oc2alkewys/Eden-Resume.pdf?rlkey=0eusf3ubs8b7osf75s0s2byo5&st=1vqizfee&dl=0', // Empty fileUrl will hide the `Download Resume` button.
+      './Eden-Resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'JavaScript',
